@@ -1,0 +1,85 @@
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+	.project_list li {
+    width: 50%;
+  
+}
+.carousel-caption h1 { 
+    font-size: 40px;
+}
+.carousel-caption p { 
+    font-size: 18px;
+}
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+	.carousel-caption{
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	.carousel-caption h1 { 
+		font-size: 30px;
+	}
+	.carousel-caption p { 
+		font-size: 15px;
+		margin-top: 20px;
+	}	
+	.portfolio_filter li {
+    margin-right: 15px;
+    padding: 7px 16px;
+    
+	}
+	.portfolio_filter {
+    margin: 0 0 20px;
+    
+	}
+
+	.section_title {
+
+		margin: 50px auto 50px;
+	}
+	.project_list li {
+    width: 50%;
+		
+	}
+
+	.single-blog {
+		
+		margin-bottom: 26px;
+	}
+}
+
+
+@media (max-width: 480px) {
+	.carousel-caption{
+		padding-top: 0px;
+		padding-bottom: 0px;
+		 top: 15%;
+	}
+
+	.carousel-caption h1 { 
+		font-size: 15px;
+	}
+	.carousel-caption p { 
+		font-size: 12px;
+		margin-top: 20px;
+	}	
+	.portfolio_filter li {
+    margin-right: -5px;
+    padding: 8px 10px;
+    
+	}
+	.project_list li {
+    width: 100%;
+	}
+	.social_info ul {
+    padding: 0;
+}
+.social_info ul li {
+    margin: 5px 0px;
+}
+}
